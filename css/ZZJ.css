@@ -1,0 +1,200 @@
+/*清除默认边距*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*整个网页背景*/
+body{
+    background: url();
+
+}
+h2#wa{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+/*header设置边距 留出页面最上端距离*/
+header{
+    margin-top: 10px;
+}
+/*语言部分 仅图片*/
+.language{
+    width: 100%;
+    height: 35px;
+    background-color: #101111;
+}
+/*语言下面li标签*/
+.language>ul{
+    float: right;
+    margin-right: 100px;
+}
+.language>ul>li{
+    width: 80px;
+    height: 35px;
+    background-color: aqua;
+    float: left;
+    margin-left: 5px;
+    list-style: none ;
+}
+.language>ul>li:nth-of-type(1){
+    background: url(../images/首页/En.png);
+}
+.language>ul>li:nth-of-type(1):hover{
+    background: url(../images/首页/En.png) no-repeat -80px 0;
+}
+.language>ul>li:nth-of-type(2){
+    padding-left: 30px;
+    font-size: 14px;
+    line-height: 35px;
+    background: url(../images/首页/tq.png) no-repeat 3px 3px;
+    background-color: rgb(12,138,218);
+}
+/*消除导航栏字体超链接样式*/
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+/*导航条部分*/
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(226, 70, 43);
+}
+nav>ul{
+    margin-left: 500px;
+}
+nav>ul>li{
+    list-style: none;
+    height: 70px;
+    padding: 0 40px;
+    float: left;
+    line-height: 70px;
+    font-size: 150%;
+    color: #FFF;
+}
+nav>ul>li:hover{
+    background-color: brown;
+}
+nav>ul>li:nth-of-type(3){
+    background-color: brown;
+}
+header>img{
+    float: left;
+    margin-top: 35px;
+}
+/*表格设计实现仿朋友圈*/
+section{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+section h1{
+    margin-top: 10px;
+    float: left;
+    height: 120px;
+    width: 100%;
+    background-color: rgba(24,24,24)
+}
+section h1 img{
+    width: 413px;
+    height: 120px;
+}
+section h2 img{
+    width: 413px;
+    height: 100px;
+    margin-left: 25px;
+}
+#box{
+    width: 100%;
+    height: 1320px;
+    display: table;
+    background-color: rgba(24,24,24);
+    border-spacing: 15px;
+    color:#FFF;
+}
+
+#tablerow1{
+    display: table-row;
+}
+#tablerow2{
+    display: table-row;
+}
+#tablerow3{
+    display: table-row;
+}
+
+#box1{
+    display: table-cell;
+    text-align: center;
+    height: 440px;
+    width: 33%;
+}
+#box2{
+    display: table-cell;
+    text-align: center;
+    height: 440px;
+    width: 33%;
+}
+#box3{
+    display: table-cell;
+    text-align: center;
+    height: 440px;
+    width: 33%;
+}
+#box4{
+    display: table-cell;
+    text-align: center;
+    height: 440px;
+    width: 33%;
+}
+#box5{
+    display: table-cell;
+    text-align: center;
+    height: 440px;
+    width: 33%;
+}
+#box6{
+    display: table-cell;
+    text-align: center;
+    height: 440px;
+    width: 33%;
+}
+#box7{
+    display: table-cell;
+    text-align: center;
+    height: 440px;
+    width: 33%;
+}
+#box8{
+    display: table-cell;
+    text-align: center;
+    height: 440px;
+    width: 33%;
+}
+#box9{
+    display: table-cell;
+    text-align: center;
+    height: 440px;
+    width: 33%;
+}
+
+footer{
+    width: 100%;
+    height: 75px;
+    background-color: #3b3939;
+    float: left;
+}
+footer p{
+    color: #FFF;
+    font-size: 17px;
+    margin-top: 9px;
+    margin-left: 190px;
+}
+footer p#sjhp{
+    color:#FFF;
+    font-size: 45px;
+    position: absolute;
+    top: 1855px;
+    right: 200px;
+    font-weight: 800;
+}
